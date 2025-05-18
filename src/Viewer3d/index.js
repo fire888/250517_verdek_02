@@ -15,7 +15,6 @@ import { PARAMS_GUI } from './constants/gui'
 
 const root = {}
 
-
 const initApp = () => {
     root.studio = createStudio(root)
     root.loadManager = createLoadManager()
